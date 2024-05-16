@@ -36,6 +36,14 @@ Claude 3 Opus model, they should be compatible with any LLM.
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
+## Acknowledgements
+
+- Most prompts were written using a combination of [Anthropic's
+  metaprompt](https://docs.anthropic.com/en/docs/helper-metaprompt-experimental)
+  and manual work.
+- The [manpage writer](data/manpage-writer.md) prompt includes the
+  manpage for the `scdoc` utility. Copyright belongs to Drew DeVault.
+
 ## Resources
 
 - [Patches](https://lists.sr.ht/~jamesponddotco/public-inbox).
