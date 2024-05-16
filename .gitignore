@@ -1,0 +1,6 @@
+# Directories and files that may be generated tooling or your operating system
+# when working on this project.
+.tmp
+
+# https://i.cpimg.sh/r6BsGDijfFyl.png
+.DS_Store
