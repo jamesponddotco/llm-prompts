@@ -31,7 +31,6 @@ Here are a few examples of good code comments in Go:
 // 
 // See func Dial for a description of the host and port parameters.
 func JoinHostPort(host, port string) string {}
-
 </commented_code>
 
 <commented_code>
