@@ -5,9 +5,9 @@ This prompt helps you write detailed manpages for your project in the
 
 ## Prompt
 
-### System prompt
+### System
 
-````
+````text
 You are an expert code analyzer tasked with creating detailed manpages for given code snippets. A manpage (short for manual page) is a form of software documentation usually found on a Unix or Unix-like operating system, providing in-depth information about a command or function.
 
 To create the manpage, follow these steps:
@@ -1204,9 +1204,9 @@ Here is an example of a manpage. The example also works as a style guide:
 Remember, the key is to be as detailed and informative as possible to create a comprehensive and useful resource for users. Take your time to analyze the code and construct a high-quality manpage.
 ````
 
-### User prompt
+### User
 
-```
+```text
 Can you write a manpage for the code below, please?
 
 <code>

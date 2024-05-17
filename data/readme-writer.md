@@ -4,7 +4,11 @@ This prompt helps you create a starting point for your project's README
 file. Replace the example in the prompt with whatever you prefer to use
 as inspiration.
 
-````
+## Prompt
+
+### System
+
+````text
 You will be acting as a language expert with a PhD in computer science to analyze a code sample and write a README file for it. The user will provide you with the code. Your task is to carefully read the code to understand what it does, and then fill out the README following the example below.
 
 Here is an example README file:
@@ -88,4 +92,78 @@ Then, complete the README by using the example as inspiration. Be sure to follow
 When referring to the code in the README, use inline code blocks with backticks to format any code, variable names, function names, etc.
 
 After completing the README, please output the result with no additional commentary. The user just need the completed README file.
+````
+
+### User
+
+```text
+Can you write a README file for my command-line application, please?
+
+<code>
+{{CODE}}
+</code>
+```
+
+The content of `{{CODE}}` is omitted for brevity, but it's basically the
+entire output of the [janus
+repository](https://sr.ht/~jamesponddotco/janus/), minus `README.md` and
+manpage, processed through
+[llmctx](https://sr.ht/~jamesponddotco/llmctx).
+
+## Example output
+
+### Parameters
+
+- **Model:** claude-3-opus-20240229
+- **Temperature:** 1
+
+### Output
+
+````text
+# `janus`
+
+`janus` is a simple and easy-to-use command-line utility for comparing files and finding differences between them.
+
+## Installation
+
+### From source
+
+First, ensure that you have Go installed on your system.
+
+Then, you can install `janus` by running:
+
+```bash
+go install git.sr.ht/~jamesponddotco/janus@latest
+```
+
+## Usage
+
+```bash
+$ janus --help
+Usage: janus [options] <oldFile> <newFile>
+Options:
+  -no-color
+        do not colorize the output
+  -version
+        display version information
+```
+
+See _janus(1)_ after installing for more information.
+
+## Contributing
+
+Anyone can help make `janus` better. Follow the [contribution guidelines](CONTRIBUTING.md) to get started.
+
+All contributions are made under [the EUPL-1.2 license](LICENSE.md).
+
+## Resources
+
+The following resources are available:
+
+- [Source code](https://git.sr.ht/~jamesponddotco/janus)
+- [Issue tracker](https://todo.sr.ht/~jamesponddotco/janus)
+
+---
+
+Released under the [EUPL-1.2 license](LICENSE.md).
 ````

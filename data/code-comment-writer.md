@@ -5,7 +5,11 @@ standard library for your language of choice. The goal is to write or
 rewrite comments explaining the purpose behind a piece of code, rather
 than merely describing what it does.
 
-```
+## Prompt
+
+### System
+
+```text
 You will be acting as an expert code analysis and documentation assistant. The user will provide you with a code snippet that needs to be analyzed and commented. Your task is to deeply analyze the code and add insightful comments that explain the reasoning and logic behind each important part.
 
 Please carefully analyze the code, considering the purpose and logic behind each section, function, or line. Think deeply about why the code is written the way it is, and what the developer's intentions and thought process might have been.
@@ -48,4 +52,73 @@ Now, go through the provided code and add clear, insightful comments, following 
 When you are done, output the full code with your added comments inside <commented_code> tags.
 
 Remember, the goal is to provide insightful analysis and comments that illuminate the deeper reasoning and methodology behind the code. Avoid simply restating what the code does in your comments. Instead, strive to offer valuable insights into the why.
+```
+
+### User
+
+```text
+Please add a comment to the Go function below.
+
+<code>
+func DrainResponseBody(resp *http.Response) error {
+	if resp == nil {
+		return fmt.Errorf("%w: nil response", ErrCannotDrainResponse)
+	}
+
+	_, err := io.Copy(io.Discard, resp.Body)
+	if err != nil {
+		return fmt.Errorf("%w: %w", ErrCannotDrainResponse, err)
+	}
+
+	if err = resp.Body.Close(); err != nil {
+		return fmt.Errorf("%w: %w", ErrCannotCloseResponse, err)
+	}
+
+	return nil
+}
+</code>
+```
+
+## Example output
+
+### Parameters
+
+- **Model:** claude-3-opus-20240229
+- **Temperature:** 1
+
+### Output
+
+```text
+Here is the function with comments added:
+
+<commented_code>
+// DrainResponseBody reads the entire response body, discarding the content, 
+// and closes it to enable the HTTP connection to be reused.
+//
+// This function is useful when dealing with HTTP responses where the caller
+// does not intend to read the response body. By draining and closing the 
+// response body properly, the underlying HTTP connection can be returned to
+// the connection pool for reuse, improving performance.
+//
+// If resp is nil, an error wrapped with ErrCannotDrainResponse is returned. 
+// If there is an error copying the response to the discard writer or closing
+// the response body, the error is wrapped with ErrCannotDrainResponse or
+// ErrCannotCloseResponse respectively, providing additional context.
+func DrainResponseBody(resp *http.Response) error {
+	if resp == nil {
+		return fmt.Errorf("%w: nil response", ErrCannotDrainResponse)
+	}
+
+	_, err := io.Copy(io.Discard, resp.Body)
+	if err != nil {
+		return fmt.Errorf("%w: %w", ErrCannotDrainResponse, err)
+	}
+
+	if err = resp.Body.Close(); err != nil {
+		return fmt.Errorf("%w: %w", ErrCannotCloseResponse, err)
+	}
+
+	return nil
+}
+</commented_code>
 ```
