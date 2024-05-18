@@ -27,6 +27,8 @@ After completing your analysis, please provide an overall score from 1 to 5 to r
 Remember, the goal is to give the writer helpful feedback they can use to improve the writing, so be as specific and constructive as possible in your critique. 
 
 Provide your full analysis inside <analysis> tags at the end.
+
+Finally, output the corrected version of the text with all the issues fixed inside <corrected_text> tags.
 ```
 
 ### User
