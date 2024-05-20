@@ -25,6 +25,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Coding in Go](data/coding-in-go.md)
 - [Coding in PHP (With a Focus on WordPress)](data/coding-in-php-with-wordpress-focus.md)
 - [Coding in Rust](data/coding-in-rust.md)
+- [Coding in TypeScript](data/coding-in-typescript.md)
 - [Computer Science PhD](data/computer-science-phd.md)
 - [Grammar Reviewer](data/grammar-reviewer.md)
 - [Manpage Writer](data/manpage-writer.md)
