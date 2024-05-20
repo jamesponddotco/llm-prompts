@@ -23,6 +23,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [CLI UX Improver](data/cli-ux-improver.md)
 - [Code Comment Writer](data/code-comment-writer.md)
 - [Coding in Go](data/coding-in-go.md)
+- [Coding in PHP (With a Focus on WordPress)](data/coding-in-php-with-wordpress-focus.md)
 - [Coding in Rust](data/coding-in-rust.md)
 - [Computer Science PhD](data/computer-science-phd.md)
 - [Grammar Reviewer](data/grammar-reviewer.md)
