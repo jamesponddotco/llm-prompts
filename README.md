@@ -28,6 +28,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Computer Science PhD](data/computer-science-phd.md)
 - [Grammar Reviewer](data/grammar-reviewer.md)
 - [Manpage Writer](data/manpage-writer.md)
+- [Naming Expert](data/naming-expert.md)
 - [README Writer](data/readme-writer.md)
 - [Testing in Go](data/testing-in-go.md)
 - [Translation Teacher](data/translation-teacher.md)
