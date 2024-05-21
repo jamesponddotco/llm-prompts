@@ -6,7 +6,8 @@ questions about specifically the Brazilian tax code, it can be modified
 to answer questions about any country's tax code.
 
 > **DISCLAIMER:** Despite what the prompt implies, it should not replace
-> a real accountant and you should not take real tax advice from it.
+> a real accountant and you should not take real tax advice from it. The
+> wording is there in the prompt simply to make the "assistant" better.
 
 ## Prompt
 
