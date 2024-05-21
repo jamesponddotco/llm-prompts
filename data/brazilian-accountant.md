@@ -37,7 +37,7 @@ Remember, when formulating your response:
 ### User
 
 ```text
-The company I work for gave me a certain amount of restricted stock. Some of that stock already vested and some didn't. How should I file my taxes according to the law? For example, should I declare the restricted stock or only the vested stock?
+I live in Brazil and work for a company in the United States. The company I work for gave me a certain amount of restricted stock. Some of that stock already vested and some didn't. How should I file my taxes according to the Brazilian law? For example, should I declare the restricted stock or only the vested stock?
 ```
 
 ## Example output
@@ -45,35 +45,48 @@ The company I work for gave me a certain amount of restricted stock. Some of tha
 ### Parameters
 
 - **Model:** claude-3-opus-20240229
-- **Temperature:** 1
+- **Temperature:** 0.2
 
 ### Output
 
 ```text
-Okay, let's think this through step-by-step:
+Okay, let's think through this step-by-step in the <scratchpad>:
 
 <scratchpad>
-Per the Brazilian tax code, restricted stock granted by an employer is taxable in Brazil, but the timing of taxation depends on when the stock vests.
+Relevant considerations for restricted stock granted by a foreign company to a Brazilian tax resident:
 
-For the portion of restricted stock that has already vested:
-- These shares are considered taxable income in the year they vest 
-- The taxable amount is the fair market value of the shares on the vesting date
-- This amount should be declared as "Other Income" on your annual tax return for the vesting year
-- Withholding tax (IRRF) at 27.5% may apply on vesting if not already withheld by employer
+1. Vested vs unvested stock:
+- Vested stock has been earned and the employee has taken ownership, so it counts as taxable income
+- Unvested stock has been granted but not yet earned, so it is not considered income for tax purposes yet
 
-For the portion of restricted stock that has not yet vested:
-- These shares are not considered taxable income yet
-- No need to declare these on your tax return until the year they actually vest in the future
-- When they do vest in a future year, the fair market value on the vesting date will become taxable as described above
+2. Timing of taxation:
+- For vested stock, the taxable event is when the shares vest and the employee takes ownership
+- The market value of the shares on the vesting date is considered taxable income (Law 12.973/2014, Article 33)
 
-So in summary, for this tax year, you should only declare as income the fair market value of the restricted shares that vested this year. The unvested shares will be declared in future years when they vest.
+3. Reporting foreign assets:
+- Vested stock owned in a foreign company needs to be reported in the Annual Adjustment income tax return and DCBE (Central Bank foreign asset disclosure) if over the threshold 
+- Currently, the DCBE reporting threshold for assets outside Brazil is US$1,000,000 (Normative Instruction RFB No. 1,842/2018)
+
+4. Tax rates:
+- Income tax rate on capital gains from stock is typically 15% (Law 13.259/2016)
+- If total gains in the month exceed R$30,000, a higher 20% rate may apply on the excess (Normative Instruction RFB No. 1,871/2019)
+
+So in summary:
+- Vested restricted stock is taxable as income based on the market value on the vesting date
+- Unvested stock grants are not taxed as income yet
+- Vested foreign stock holdings need to be reported if over the thresholds
+- Capital gains tax of 15% applies when shares are sold, with a higher 20% rate possible on larger gains
 </scratchpad>
 
 <answer>
-According to Brazilian tax law, you should only declare the restricted stock that has already vested as taxable income for this tax year. The fair market value of those shares on the date they vested is considered taxable income and should be reported as "Other Income" on your annual tax return.
+Based on Brazilian tax law, for the restricted stock you received from your US employer:
 
-Any restricted stock that has not vested yet is not considered taxable income for this tax year. You will declare the value of those shares as income in future years when they actually vest.
+- You should declare the vested shares as taxable income in the year they vested, using the market value on the vesting date. The unvested shares do not need to be reported as income yet.
 
-Be aware that withholding tax (IRRF) at a rate of 27.5% may apply to the value of the shares on the vesting date if tax was not already withheld by your employer.
+- When you eventually sell the vested shares, you will owe 15% capital gains tax on any appreciation in value since the vesting date. If your total capital gains in a month exceed R$30,000, a 20% rate applies on the excess gain.
+
+- Make sure to also report the vested foreign stock on your Annual Adjustment tax return and DCBE (foreign asset disclosure) if the total value exceeds the reporting thresholds.
+
+So in summary - declare the vested portion as income in the year of vesting, pay capital gains tax when sold, and report the assets if the total foreign holdings are over the threshold amounts. The unvested shares do not trigger any tax or reporting requirements yet.
 </answer>
 ```
