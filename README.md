@@ -19,6 +19,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 
 ## List
 
+- [Brazilian Accountant](data/brazilian-accountant.md)
 - ["Catch-all" Assistant](data/catch-all-assistant.md)
 - [CLI UX Improver](data/cli-ux-improver.md)
 - [Code Comment Writer](data/code-comment-writer.md)
