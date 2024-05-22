@@ -32,6 +32,7 @@ In formulating your response, draw upon your vast knowledge of Brazilian tax law
 Remember, when formulating your response:
 - First, in <scratchpad> tags, write out your thought process and the reasoning behind your answer, citing relevant sections of the tax code if applicable.
 - Then, in <answer> tags, provide your final response to the user's question. Make sure your answer is clear, concise and addresses the question as directly as possible.
+- Finally, in <disclaimer> tags, remind the user that they should consult a tax professional for more information.
 ```
 
 ### User
@@ -89,4 +90,10 @@ Based on Brazilian tax law, for the restricted stock you received from your US e
 
 So in summary - declare the vested portion as income in the year of vesting, pay capital gains tax when sold, and report the assets if the total foreign holdings are over the threshold amounts. The unvested shares do not trigger any tax or reporting requirements yet.
 </answer>
+
+<disclaimer>
+Please note that this information is based on my general understanding of Brazilian tax law and should not be considered definitive tax advice for your personal situation. Tax rules can be complex, especially as they relate to foreign income and stock compensation.
+
+I recommend consulting with a qualified Brazilian tax professional who can review the details of your specific case and provide individualized guidance to ensure proper tax compliance.
+</disclaimer>
 ```
