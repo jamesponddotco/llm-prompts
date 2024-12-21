@@ -24,6 +24,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Brazilian Accountant](data/brazilian-accountant.md)
 - [Business Idea Generator](data/business-idea-generator.md)
 - ["Catch-all" Assistant](data/catch-all-assistant.md)
+- [Children's Songwriter](data/childrens-songwriter.md)
 - [CLI UX Improver](data/cli-ux-improver.md)
 - [Code Comment Writer](data/code-comment-writer.md)
 - [Coding in Go](data/coding-in-go.md)
