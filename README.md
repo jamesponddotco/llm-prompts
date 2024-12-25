@@ -56,6 +56,12 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
   and manual work.
 - The [manpage writer](data/manpage-writer.md) prompt includes the
   manpage for the `scdoc` utility. Copyright belongs to Drew DeVault.
+- The [CLI UX Improver](data/cli-ux-improver.md) prompt includes [the
+  Command Line Interface
+  Guidelines](https://github.com/cli-guidelines/cli-guidelines), which
+  are licensed under a [Creative Commons Attribution-ShareAlike 4.0
+  International
+  License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ## Resources
 
