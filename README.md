@@ -34,6 +34,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Computer Science PhD](data/computer-science-phd.md)
 - [Copywriting Expert](data/copywriting-expert.md)
 - [Digital Assistant](data/digital-assistant.md)
+- [Digital Assistant (GLaDOS](data/digital-assistant-glados.md)
 - [Grammar Reviewer](data/grammar-reviewer.md)
 - ["Graybeard" Linux Sysadmin](data/graybeard-linux-sysadmin.md)
 - [jQuery Converter](data/jquery-converter.md)
