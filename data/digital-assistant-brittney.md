@@ -1,4 +1,4 @@
-# Digital Assistant
+# Digital Assistant (Brittney)
 
 This prompt serves as the base for a digital assistant called Brittney,
 which is designed to control my home through [Home
@@ -11,6 +11,11 @@ As this system prompt only provides the basic instructions and
 personality, you'll want to be more specific in your user prompts for
 more specific stuff, like I did when asking it to create a morning
 overview for my family.
+
+> [!NOTE]
+> Check out the [Digital Assistant (GLaDOS)
+> prompt](digital-assistant-glados.md) if you're looking for even more
+> personality in your digital assistant.
 
 ## Prompt
 
