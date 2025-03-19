@@ -33,7 +33,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Coding in TypeScript](data/coding-in-typescript.md)
 - [Computer Science PhD](data/computer-science-phd.md)
 - [Copywriting Expert](data/copywriting-expert.md)
-- [Digital Assistant (Brittney)](data/digital-assistant.md)
+- [Digital Assistant (Brittney)](data/digital-assistant-brittney.md)
 - [Digital Assistant (GLaDOS](data/digital-assistant-glados.md)
 - [Grammar Reviewer](data/grammar-reviewer.md)
 - ["Graybeard" Linux Sysadmin](data/graybeard-linux-sysadmin.md)
