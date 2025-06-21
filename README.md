@@ -43,6 +43,7 @@ Claude 3 Opus model, they should be compatible with any LLM.
 - [Playlist Generator](data/playlist-generator.md)
 - [Prompt Generator](data/prompt-generator.md)
 - [README Writer](data/readme-writer.md)
+- [Socratic Coder](data/socratic-coder.md)
 - [Testing in Go](data/testing-in-go.md)
 - [Translation Teacher](data/translation-teacher.md)
 - [Website Generator](data/website-generator.md)
