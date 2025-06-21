@@ -7,6 +7,11 @@ asking one focused, open-ended question at a time.
 The prompt was inspired by [Harper Reed’s LLM codegen
 workflow](https://harper.blog/2025/02/16/my-llm-codegen-workflow-atm/).
 
+You should also check out the other parts of the workflow:
+
+- [Brainstorm Specification](brainstorm-specification.md)
+- [Brainstorm Critique](brainstorm-critique.md)
+
 ## Prompt
 
 ### System
