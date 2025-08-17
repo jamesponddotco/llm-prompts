@@ -74,6 +74,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 - [Patches](https://lists.sr.ht/~jamesponddotco/public-inbox).
 - [Instructions on how to prepare patches](https://git-send-email.io/).
 - [Feature requests and prompt suggestions](https://todo.sr.ht/~jamesponddotco/public-tracker).
+- [God Tier Prompts](https://www.godtierprompts.com) - A community driven leaderboard where the best prompts rise to the top.
 
 ---
 
